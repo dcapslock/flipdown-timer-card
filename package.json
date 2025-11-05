@@ -15,20 +15,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/custom-cards/button-card.git"
+    "url": "git+https://github.com/dcapslock/flipdown-timer-card.git"
   },
   "keywords": [
     "lovelace"
   ],
   "author": "pmongloid",
   "contributors": [
-    "Darryn Capes-Davis (https://github.com/dcpaslock)"
+    "Darryn Capes-Davis (https://github.com/dcapslock)"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/custom-cards/button-card/issues"
+    "url": "https://github.com/dcapslock/flipdown-timer-card/issues"
   },
-  "homepage": "https://github.com/custom-cards/button-card#readme",
+  "homepage": "https://github.com/dcapslock/flipdown-timer-card#readme",
   "devDependencies": {
     "@babel/core": "^7.12.3",
     "@babel/plugin-proposal-class-properties": "^7.12.1",
