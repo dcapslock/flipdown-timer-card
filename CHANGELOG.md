@@ -1,3 +1,9 @@
+## [1.0.1](https://github.com/dcapslock/flipdown-timer-card/compare/v1.0.0...v1.0.1) (2025-11-05)
+
+### Bug Fixes
+
+* Update name in hacs.json ([2f4834e](https://github.com/dcapslock/flipdown-timer-card/commit/2f4834e9c86901f045ab4fd0d66b6b58feef6e74))
+
 ## 1.0.0 (2025-11-05)
 
 ### Bug Fixes
