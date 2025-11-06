@@ -10,33 +10,33 @@ export const styles = css`
   }
   /* Rotor group headings */
   .flipdown.flipdown__theme-hass .rotor-group-heading:before {
-    color: var(--primary-color);
+    color: var(--flipdown-primary-color, var(--primary-color));
   }
   /* Delimeters */
   /* Rotor tops */
   .flipdown.flipdown__theme-hass .rotor,
   .flipdown.flipdown__theme-hass .rotor-top,
   .flipdown.flipdown__theme-hass .rotor-leaf-front {
-    color: var(--text-primary-color);
-    background-color: var(--primary-color);
+    color: var(--flipdown-primary-color, var(--text-primary-color));
+    background-color: var(--flipdown-primary-background-color, var(--primary-color));
   }
   /* Rotor bottoms */
   .flipdown.flipdown__theme-hass .rotor-bottom,
   .flipdown.flipdown__theme-hass .rotor-leaf-rear {
-    color: var(--text-primary-color);
-    background-color: var(--primary-color);
+    color: var(--flipdown-secondary-color, var(--text-primary-color));
+    background-color: var(--flipdown-secondary-background-color, var(--primary-color));
   }
   /* Hinge */
   .flipdown.flipdown__theme-hass .rotor:after {
-    border-top: solid 1px var(--dark-primary-color);
+    border-top: solid 1px var(--flipdown-primary-background-color, var(--dark-primary-color));
   }
   .flipdown.flipdown__theme-hass .delimeter span {
-    background-color: var(--primary-color);
+    background-color: var(--flipdown-primary-background-color, var(--primary-color));
   }
   .flipdown.flipdown__theme-hass .btn-top,
   .flipdown.flipdown__theme-hass .btn-bottom {
-    background-color: var(--dark-primary-color);
-    color: var(--text-primary-color);
+    background-color: var(--flipdown-primary-background-color, var(--dark-primary-color));
+    color: var(--flipdown-primary-color, var(--text-primary-color));
   }
   /********** Theme: dark **********/
   /* Font styles */
@@ -71,7 +71,7 @@ export const styles = css`
   }
   .flipdown.flipdown__theme-dark .btn-top,
   .flipdown.flipdown__theme-dark .btn-bottom {
-    background-color: var(--flipdown-secondary-background-color, #202020);
+    background-color: var(--flipdown-primary-background-color, #151515);
     color: var(--flipdown-primary-color, #ffffff);
   }
   /********** Theme: light **********/
@@ -83,11 +83,6 @@ export const styles = css`
   /* Rotor group headings */
   .flipdown.flipdown__theme-light .rotor-group-heading:before {
     color: var(--flipdown-primary-color, #222222);
-  }
-  /* Delimeters */
-  .flipdown.flipdown__theme-light .rotor-group:nth-child(n + 1):nth-child(-n + 2):before,
-  .flipdown.flipdown__theme-light .rotor-group:nth-child(n + 1):nth-child(-n + 2):after {
-    background-color: var(--flipdown-primary-background-color, #dddddd);
   }
   /* Rotor tops */
   .flipdown.flipdown__theme-light .rotor,
@@ -107,7 +102,7 @@ export const styles = css`
     border-top: solid 1px var(--flipdown-primary-color, #222222);
   }
   .flipdown.flipdown__theme-light .delimeter span {
-    background-color: var(--flipdown-secondary-background-color, #eeeeee);
+    background-color: var(--flipdown-primary-background-color, #eeeeee);
   }
   .flipdown.flipdown__theme-light .btn-top,
   .flipdown.flipdown__theme-light .btn-bottom {
