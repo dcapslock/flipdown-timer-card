@@ -148,7 +148,7 @@ The following CSS variables are available to use in Home Assistant themes or to 
 | `--flipdown-rotor-height` | Height of rotor | CSS size | Rotor height config |
 | `--flipdown-rotor-width` | Width of rotor | CSS size | Rotor width config |
 | `--flipdown-rotor-fontsize` | Rotor font size | CSS font size | Rotor fontsize config |
-| `--flipdown-button-width` | Button width | CSS size | Button withd config |
+| `--flipdown-button-width` | Button width | CSS size | Button width config |
 | `--flipdown-button-height` | Button height. Only for when buttons are at bottom location. Otherwise button height is relative to rotor height | CSS size | Button height config |
 | `--flipdown-button-fontsize` | Button font size | CSS font size | Button fontsize config |
 
